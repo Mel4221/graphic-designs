@@ -1,0 +1,83 @@
+ID=1001;
+Key=log;
+Value=####
+ There Was an error with the given type of error: 'NotValidAction' 'At: Execution Action With Type and parameters 'ls' /home/mel/Pictures/mydesktop -l Trace: 
+Trace: ClownShell Started At:1/15/2024 02:6:49
+Trace: Loading Settings... At:1/15/2024 02:6:49
+Trace: Auto Loading Settings Disabled!!! At:1/15/2024 02:6:49
+Trace: With Arguments Length: 3 At:1/15/2024 02:6:49
+Trace: Checking Arguments At:1/15/2024 02:6:49
+Trace: Did not match any Supported Path Crateries At:1/15/2024 02:6:49
+Trace: Execution Started With Action: ls Type: /home/mel/Pictures/mydesktop Parameters: -l  At:1/15/2024 02:6:49
+Trace: Action Was not Recognized as a valid Action At:1/15/2024 02:6:49
+' 
+####;
+Relation=1/15/2024 2:06:49 AM;
+ID=1003;
+Key=log;
+Value=####
+ There Was an error with the given type of error: 'NotValidAction' 'At: Execution Action With Type and parameters 'ls' -l /home/mel/Pictures/mydesktop Trace: 
+Trace: ClownShell Started At:1/15/2024 02:7:00
+Trace: Loading Settings... At:1/15/2024 02:7:00
+Trace: Auto Loading Settings Disabled!!! At:1/15/2024 02:7:00
+Trace: With Arguments Length: 3 At:1/15/2024 02:7:00
+Trace: Checking Arguments At:1/15/2024 02:7:00
+Trace: Did not match any Supported Path Crateries At:1/15/2024 02:7:00
+Trace: Execution Started With Action: ls Type: -l Parameters: /home/mel/Pictures/mydesktop  At:1/15/2024 02:7:00
+Trace: Action Was not Recognized as a valid Action At:1/15/2024 02:7:00
+' 
+####;
+Relation=1/15/2024 2:07:00 AM;
+ID=1005;
+Key=log;
+Value=####
+ There Was an error with the given type of error: 'NotValidAction' 'At: Execution Action With Type and parameters 'read' > name Trace: 
+Trace: ClownShell Started At:1/15/2024 02:8:55
+Trace: Loading Settings... At:1/15/2024 02:8:55
+Trace: Auto Loading Settings Disabled!!! At:1/15/2024 02:8:55
+Trace: With Arguments Length: 1 At:1/15/2024 02:8:55
+Trace: Checking Arguments At:1/15/2024 02:8:55
+Trace: Did not match any Supported Path Crateries At:1/15/2024 02:8:55
+Trace: Execution Set With Action: {  At:1/15/2024 02:8:55
+Trace: Execution Set With Action: ls  At:1/15/2024 02:10:00
+Trace: Execution Started With Action: echo Type: "working idiots"  At:1/15/2024 02:10:00
+Trace: Execution Started With Action: echo Type: "what is your name"  At:1/15/2024 02:10:00
+Trace: Execution Started With Action: read Type: > Parameters: name  At:1/15/2024 02:10:00
+Trace: Action Was not Recognized as a valid Action At:1/15/2024 02:10:00
+' 
+####;
+Relation=1/15/2024 2:10:00 AM;
+ID=1007;
+Key=log;
+Value=####
+ There Was an error with the given type of error: 'NotValidAction' 'At: Execution With Action: 'histyro' Trace: 
+Trace: ClownShell Started At:1/15/2024 02:11:44
+Trace: Loading Settings... At:1/15/2024 02:11:44
+Trace: Auto Loading Settings Disabled!!! At:1/15/2024 02:11:44
+Trace: With Arguments Length: 1 At:1/15/2024 02:11:44
+Trace: Checking Arguments At:1/15/2024 02:11:44
+Trace: Did not match any Supported Path Crateries At:1/15/2024 02:11:44
+Trace: Execution Set With Action: histyro  At:1/15/2024 02:11:44
+Trace: Action Was not Recognized as a valid Action At:1/15/2024 02:11:44
+' 
+####;
+Relation=1/15/2024 2:11:44 AM;
+ID=1009;
+Key=log;
+Value=####
+ There Was an error with the given type of error: 'NotValidParameter' 'I'M sorry but the path //~ does not exist!!!' 
+####;
+Relation=1/15/2024 2:19:18 AM;
+ID=1011;
+Key=log;
+Value=####
+ There Was an error with the given type of error: 'NotValidType' 'File or Directory 'ClownShell.log.log' was not found!!!' 
+####;
+Relation=1/15/2024 2:25:02 AM;
+ID=1013;
+Key=log;
+Value=####
+ There Was an error with the given type of error: 'ExecutionError' 'System.BadImageFormatException: type 0x00 not handled in do_mono_metadata_parse_type on image /home/mel/Documents/csharp/ClownShell/bin/Release/ClownShell.Parser.dll
+  at ScriptRunner.Runner.Run (System.Action code) [0x00000] in <c86570e7cce04e56978d2b0653e4aa6c>:0 ' 
+####;
+Relation=1/15/2024 2:32:29 AM;
